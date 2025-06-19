@@ -107,7 +107,6 @@ class Help {
                 .command-key-${i} {
                   color: ${fgcolor};
                   background-color:${bgcolor};
-                  # border: 4px solid ${fgcolor};
                 }
               </style>
               <li class="command">
