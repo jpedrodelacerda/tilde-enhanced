@@ -49,7 +49,7 @@ const CONFIG = {
             url: "https://pocketcasts.com/podcasts",
             search: "/search?q={}",
             color: "#1dd35e",
-            icon: "spotify",
+            icon: "pocketcasts",
             quickLaunch: false,
         },
         {
