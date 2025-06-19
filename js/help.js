@@ -130,7 +130,6 @@ class Help {
                         .command-key-${i} {
                           color: ${fgcolor};
                           background-color:${bgcolor};
-                          border: 4px solid ${fgcolor};
                         }
                       </style>
                   <span class="command-key command-key-${i}">${key}</span>
