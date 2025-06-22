@@ -113,10 +113,18 @@ const CONFIG = {
             category: "dev",
             name: "hm - search",
             key: "hm",
-            url: "https://search.nixos.org",
             url: "https://home-manager-options.extranix.com",
             search: "/?query={}",
             icon: "nixos",
+            quickLaunch: true,
+        },
+        {
+            category: "dev",
+            name: "MELPA - search",
+            key: "em",
+            url: "https://melpa.org",
+            search: "/#/?q={}",
+            icon: "melpa",
             quickLaunch: true,
         },
         {
@@ -138,7 +146,7 @@ const CONFIG = {
         {
             category: "media",
             name: "hbo",
-            key: "h",
+            key: "hb",
             url: "https://www.max.com",
             icon: "hbo",
             quickLaunch: false,
@@ -216,7 +224,15 @@ const CONFIG = {
             icon: "steam",
             quickLaunch: true,
         },
-
+        {
+            category: "fun",
+            name: "scryfall",
+            key: "sf",
+            url: "https://scryfall.com",
+            search: "/search?q={}",
+            icon: "scryfall",
+            quickLaunch: true,
+        },
         {
             category: "fun",
             name: "lichess",
